@@ -24,7 +24,7 @@ library(gridExtra)
 cat("Loading dataset...\n")
 
 # ⚠️ Change this path if your file is somewhere else
-df <- read.csv("air_pollution_dataset.csv", stringsAsFactors = FALSE)
+df <- read.csv("air_quality_data.csv", stringsAsFactors = FALSE)
 
 cat("✅ Dataset Loaded Successfully!\n")
 cat("Dimensions:", nrow(df), "rows x", ncol(df), "columns\n\n")
